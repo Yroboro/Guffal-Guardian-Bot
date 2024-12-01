@@ -16,4 +16,39 @@ Technical Stack:
 Language: Node.js (Discord.js library)
 Database: MongoDB for user data and game state management
 Hosting: Heroku or a similar cloud platform for hosting the bot
-GitHub Repository Structure:
+#GitHub Repository Structure:
+---
+/GuffalGuardianBot
+  /commands
+    - adventure.js
+    - defend.js
+    - quest.js
+    - leaderboard.js
+    - market.js
+  /events
+    - onMessage.js
+    - onUserJoin.js
+  /models
+    - userModel.js
+    - itemModel.js
+    - questModel.js
+  /utilities
+    - experienceCalculator.js
+    - itemGenerator.js
+  - config.json
+  - index.js
+  - README.md
+---
+README.md:
+The README file would include:
+
+Bot setup instructions
+Command list and descriptions
+Contribution guidelines
+License information
+Setting Up:
+
+Clone the repository to your local machine.
+Install the necessary packages using npm install.
+Set up your Discord bot token and MongoDB URI in the config.json file.
+Deploy the bot to your chosen hosting service.
